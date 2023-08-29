@@ -1,5 +1,109 @@
 * {
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
 }
+/* header design */
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+    background-color: #FFF8F3;
+    margin-bottom: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    height: 35px;
+    padding: 5px;
+}
 
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav > ul > a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.title-design{
+    color: #272727;
+    margin: 24px;
+}
+/* fisrt section/ beautiful flower section */
+.text-color{
+    color: #272727;
+    opacity: 60%;
+}
+.btn-primary{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #E55473;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.beautiful-flower{
+    display: flex;
+    justify-content:space-evenly;
+    height: 600px;
+    padding: 10%;
+    background-color: beige;
+}
+
+.btf-flower{
+    height: 500px;
+    width: 80%;
+    padding: 20px;
+    margin-right: 5%;
+    align-items: center;
+}
+.btf-flower > h1 {
+    font-size: 60px;
+    padding-bottom: 24px;
+}
+.btf-flower > p {
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+.btf-flower-img > img{
+    height: 500px;
+    width: 435px; 
+    align-items: baseline;
+}
+
+/* hot deals section */
+
+.our-flower{
+    margin-top: 60px;
+}
+.our-flower > h3{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.our-flower > p{
+    color: #272727;
+    opacity: 60%;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.our-flower-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-flower-list > li{
+    justify-content: center;
+    align-items: center;
+}
