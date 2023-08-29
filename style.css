@@ -98,12 +98,65 @@ li{
     font-size: 18px;
     margin-bottom: 50px;
 }
-.our-flower-list {
+.our-flower-list{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin: 0 5%;
+    margin-bottom: 60px;
 }
-.our-flower-list > li{
-    justify-content: center;
-    align-items: center;
+.our{
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    text-decoration-line: underline;
 }
+.list-1 > img{
+    height: 360px;
+    width: 265px;
+    background-color:  rgba(167, 33, 98, 0.15);
+    padding: 0 10px;
+    padding-top: 60px;
+    border-radius: 300px 300px 0 0;
+}
+.list-2 > img{
+    height: 360px;
+    width: 265px;
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 0 10px;
+    padding-top: 60px;
+    border-radius: 300px 300px 0 0;
+}
+.list-3 > img{
+    height: 360px;
+    width: 265px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 0 10px;
+    padding-top: 60px;
+    border-radius: 300px 300px 0 0;
+}
+/* our flower section 2nd part */
+.our-flower-list2nd{
+    width: 85%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.our-flower-list2nd > ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.our2nd > img{
+    height: 88px;
+    width: 88px;
+    margin: 60px;
+    margin-bottom: 24px;
+}
+.our2nd > p{
+    text-align: center;
+    font-size: 18px;
+}
+/* hot deals section */
+
