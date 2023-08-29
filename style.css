@@ -85,13 +85,13 @@ li{
 .our-flower{
     margin-top: 60px;
 }
-.our-flower > h3{
+.heading-design{
     color: #272727;
     text-align: center;
     font-size: 40px;
     margin-bottom: 24px;
 }
-.our-flower > p{
+.paragraph-design{
     color: #272727;
     opacity: 60%;
     text-align: center;
@@ -159,4 +159,35 @@ li{
     font-size: 18px;
 }
 /* hot deals section */
+.hot-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10%;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 50px;
+}
+.hot-deal{
+    text-align: center;    
+    margin: 0 8%; 
+}
+.hot-deal > img{
+    width: 318px;
+    height: 420px;
+}
+.color-prime{
+    color: #E55473;
+}
+/* instagram section */
+.insta-pic{
+    display: flex;
+    gap: 24px;
+    padding: 0 8%;
+}
+.insta-pic > img{
+    width: 242px;
+    height: 296px;
+    border-radius: 5px;
+}
 
