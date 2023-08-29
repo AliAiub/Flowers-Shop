@@ -3,13 +3,17 @@
     margin: 0px;
     padding: 0px;
 }
+main section{
+    margin-bottom: 100px;
+}
+
 /* header design */
 .heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 5%;
-    background-color: #FFF8F3;
+    background-color: #fdf8f5;
     margin-bottom: 50px;
 }
 .logo{
@@ -20,7 +24,6 @@
     height: 35px;
     padding: 5px;
 }
-
 nav > ul {
     display: flex;
     align-items: center;
@@ -28,16 +31,22 @@ nav > ul {
 nav > ul > a{
     text-decoration: none;
 }
+nav > ul > a:hover{
+    cursor: pointer;
+    padding: 10px;
+    background-color: bisque;
+}
 li{
     list-style: none;
-    margin-right: 50px;
+    margin: 0 50px;
     font-size: 18px;
 }
 .title-design{
     color: #272727;
     margin: 24px;
 }
-/* fisrt section/ beautiful flower section */
+
+/* first section/ beautiful flower section */
 .text-color{
     color: #272727;
     opacity: 60%;
@@ -50,15 +59,13 @@ li{
     border: 0;
     border-radius: 8px;
 }
-
 .beautiful-flower{
     display: flex;
     justify-content:space-evenly;
     height: 600px;
     padding: 10%;
-    background-color: beige;
+    fill: linear-gradient(180deg, rgba(229, 84, 115, 0.10) 0%, rgba(229, 84, 115, 0.01) 94.27%, rgba(229, 84, 115, 0.00) 100%, rgba(229, 84, 202, 0.00) 100%);
 }
-
 .btf-flower{
     height: 500px;
     width: 80%;
@@ -75,16 +82,12 @@ li{
     padding-bottom: 24px;
 }
 .btf-flower-img > img{
-    height: 500px;
+    height: 550px;
     width: 435px; 
     align-items: baseline;
 }
 
 /* hot deals section */
-
-.our-flower{
-    margin-top: 60px;
-}
 .heading-design{
     color: #272727;
     text-align: center;
@@ -102,7 +105,6 @@ li{
     display: flex;
     justify-content: space-around;
     margin: 0 5%;
-    margin-bottom: 60px;
 }
 .our{
     color: #272727;
@@ -134,12 +136,13 @@ li{
     padding-top: 60px;
     border-radius: 300px 300px 0 0;
 }
+
 /* our flower section 2nd part */
 .our-flower-list2nd{
-    width: 85%;
+    width: 80%;
     height: 250px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-top: 100px;
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
 }
@@ -147,7 +150,6 @@ li{
     display: flex;
     justify-content: space-around;
 }
-
 .our2nd > img{
     height: 88px;
     width: 88px;
@@ -158,6 +160,7 @@ li{
     text-align: center;
     font-size: 18px;
 }
+
 /* hot deals section */
 .hot-section{
     display: flex;
@@ -166,7 +169,6 @@ li{
     padding: 10%;
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
-    margin-bottom: 50px;
 }
 .hot-deal{
     text-align: center;    
@@ -179,6 +181,7 @@ li{
 .color-prime{
     color: #E55473;
 }
+
 /* instagram section */
 .insta-pic{
     display: flex;
@@ -191,3 +194,35 @@ li{
     border-radius: 5px;
 }
 
+/* subscribe form section */
+.from-design{
+    width: 80%;
+    background-image: url(./Flowers/Rectangle\ 9.png);
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px;
+}
+#email{
+    font-size: 18px;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+/* footer section */
+.footer{    
+    color: #FFFFFF;
+    background-color: #111010;
+    text-align: center;
+    padding: 100px;
+}
+.footer-heading{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.paragraph-footer{  
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 18px;
+    margin: 50px;
+}
